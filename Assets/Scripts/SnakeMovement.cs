@@ -16,8 +16,6 @@ public class SnakeMovement : MonoBehaviour
 
     AudioManager audioManager;
 
-    //private GameManager _gameManager;
-
     void Start()
     {
         _snakeRigidbody = GetComponent<Rigidbody>();
